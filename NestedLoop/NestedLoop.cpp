@@ -4,14 +4,14 @@ using namespace std;
 int main()
 {
 	int x, y;
-	for (x = 1; x <= 5; x++)
+	for (x = 1; x <= 5; x++) // the outer loop which count how many time that need to repeat the process
 	{
-		for (y = 1; y <= x; y++)
+		for (y = 1; y <= x; y++) // the inner loop which for show the data
 			cout << x;
 		cout << endl;
 	}
 
-	for (x = 4; x >= 1; x--)
+	for (x = 4; x >= 1; x--) // controll the 
 	{
 		for (y = 1; y <= x; y++)
 			cout << x;
